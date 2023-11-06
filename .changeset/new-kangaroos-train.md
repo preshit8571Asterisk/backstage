@@ -3,4 +3,4 @@
 '@backstage/catalog-model': patch
 ---
 
-Added filtering and sorting to unprocessed entites tables.
+Added filtering and sorting to unprocessed entities tables.
