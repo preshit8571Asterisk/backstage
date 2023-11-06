@@ -1,5 +1,22 @@
 # @backstage/plugin-scaffolder-backend
 
+## 1.19.0-next.2
+
+### Patch Changes
+
+- ae30a9ae8c: Added description for publish:gerrit scaffolder actions
+- 013611b42e: `knex` has been bumped to major version 3 and `better-sqlite3` to major version 9, which deprecate node 16 support.
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.6.7-next.2
+  - @backstage/backend-common@0.19.9-next.2
+  - @backstage/plugin-catalog-backend@1.15.0-next.2
+  - @backstage/backend-tasks@0.5.12-next.2
+  - @backstage/plugin-auth-node@0.4.1-next.2
+  - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.4-next.2
+  - @backstage/plugin-catalog-node@1.5.0-next.2
+  - @backstage/plugin-permission-node@0.7.18-next.2
+  - @backstage/plugin-scaffolder-node@0.2.8-next.2
+
 ## 1.19.0-next.1
 
 ### Patch Changes

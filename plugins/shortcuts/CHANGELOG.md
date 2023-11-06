@@ -1,5 +1,13 @@
 # @backstage/plugin-shortcuts
 
+## 0.3.16-next.2
+
+### Patch Changes
+
+- 55725922a5: Ensure that shortcuts aren't duplicate-checked against themselves
+- Updated dependencies
+  - @backstage/core-components@0.13.8-next.2
+
 ## 0.3.16-next.1
 
 ### Patch Changes

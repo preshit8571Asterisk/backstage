@@ -1,5 +1,19 @@
 # @backstage/plugin-kubernetes-backend
 
+## 0.13.1-next.2
+
+### Patch Changes
+
+- 62180df4ee: Allow storing dashboard parameters for kubernetes in catalog
+- Updated dependencies
+  - @backstage/plugin-kubernetes-common@0.7.1-next.1
+  - @backstage/backend-plugin-api@0.6.7-next.2
+  - @backstage/backend-common@0.19.9-next.2
+  - @backstage/plugin-kubernetes-node@0.1.1-next.2
+  - @backstage/plugin-auth-node@0.4.1-next.2
+  - @backstage/plugin-catalog-node@1.5.0-next.2
+  - @backstage/plugin-permission-node@0.7.18-next.2
+
 ## 0.13.1-next.1
 
 ### Patch Changes

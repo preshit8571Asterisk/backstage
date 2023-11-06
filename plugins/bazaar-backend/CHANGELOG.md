@@ -1,5 +1,15 @@
 # @backstage/plugin-bazaar-backend
 
+## 0.3.5-next.2
+
+### Patch Changes
+
+- 013611b42e: `knex` has been bumped to major version 3 and `better-sqlite3` to major version 9, which deprecate node 16 support.
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.6.7-next.2
+  - @backstage/backend-common@0.19.9-next.2
+  - @backstage/plugin-auth-node@0.4.1-next.2
+
 ## 0.3.5-next.1
 
 ### Patch Changes

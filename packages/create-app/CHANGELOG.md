@@ -1,5 +1,26 @@
 # @backstage/create-app
 
+## 0.5.7-next.2
+
+### Patch Changes
+
+- 770763487a: Cleaned up cases where deprecated code was being used but had a new location they should be imported from
+- 013611b42e: `knex` has been bumped to major version 3 and `better-sqlite3` to major version 9, which deprecate node 16 support.
+
+  You can do the same in your own Backstage repository to ensure that you get future node 18+ relevant updates, by having the following lines in your `packages/backend/package.json`:
+
+  ```
+  "dependencies": {
+    // ...
+    "knex": "^3.0.0"
+  },
+  "devDependencies": {
+    // ...
+    "better-sqlite3": "^9.0.0",
+  ```
+
+- e6b7ab8d2b: Added missing node-gyp dependency to fix Docker image build
+
 ## 0.5.7-next.1
 
 ### Patch Changes
